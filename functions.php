@@ -12,6 +12,14 @@
    add_theme_support('post-thumbnails' );
    add_theme_support('menus');
    add_theme_support('custom-header', $args);
+   add_theme_support('custom-logo', array(
+     'height'      => 190,
+     'flex-height' => true,
+     'width'       => 190,
+     'flex-width' => true,
+     //'flex-width'  => false,
+     //'flex-height' => false,
+   ));
    register_nav_menu('header', "En tête du menu");
    register_nav_menu('footer', "Footer");
 

@@ -10,8 +10,10 @@
 <body>
   <header>
     <nav class="navbar navbar-light mx-3">
-      <a class="navbar-brand" href="#"><?php bloginfo('name'); ?></a>
-      <?php wp_nav_menu([
+      <?php if ( has_custom_logo() ) : ?>
+        <div class="site-logo"><?php the_custom_logo(); ?></div>
+      <?php endif; ?>
+        <?php wp_nav_menu([
           'theme_location' => 'header',
           'menu_class' => 'nav  justify-content-end',
           ]) ?>
@@ -38,4 +40,3 @@
   background-size: cover;}
   </style>
 </header>
-  

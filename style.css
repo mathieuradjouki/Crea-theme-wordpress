@@ -10,8 +10,8 @@ header{
 }
 /*fin header*/
 
-/*abonnement*/
-.abonnement{
+/*preview-article*/
+.preview-article{
   background-color: rgba(255, 255, 255, 0.9);
   box-shadow: 10px 5px 5px grey;
   transform: translateY(-80px);
@@ -20,13 +20,18 @@ header{
   justify-content: center;
   flex-wrap: wrap;
 }
-.abonnement h2{
+.preview-article h2{
   display: flex;
   justify-content: center;
 }
-.abonnement a{
+.preview-article a{
   text-decoration: none;
   color: black;
+  text-align: center;
+}
+/*end preview-article*/
+/*What about us*/
+h2{
   text-align: center;
 }
 .decouvrir{
