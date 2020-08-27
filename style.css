@@ -30,10 +30,7 @@ header{
   text-align: center;
 }
 /*end preview-article*/
-/*What about us*/
-h2{
-  text-align: center;
-}
+
 .decouvrir{
   display: flex;
   flex-direction: row;
